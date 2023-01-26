@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(16, 16, 63);
+   align-items: center;
+   text-align: center;
+  padding-top: 40px;
+   
+}
+li{
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Montserrat';
+    list-style: none;
+    text-transform: capitalize;
+}
+.btn{
+    background-color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 3px;
+}
+.btn:hover{
+    border: 1px solid lawngreen;
+}
+.far{
+    color: lawngreen;
+}
+
+.fa-regular{
+    COLOR: RED;
+}
+
+.addbtn{
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 8px;
+    color: red;
+}
+
+.addbtn:hover{
+    background: none;
+    border: 2px solid lawngreen;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+input :focus{
+border: none;
+}
+.delbtn{
+    background-color: black;
+    color: #fff;
+    font-size: 22px;
+    font-family: "montserrat";
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
+.delbtn:hover{
+    background: none;
+    border: 1px solid lawngreen;
+}
